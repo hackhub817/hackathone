@@ -1,0 +1,535 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+}
+
+.video
+{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding:5px;
+  padding-top:15px;
+}
+
+.middle
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video1
+{
+  
+  display: flex;
+  padding-bottom :12px; 
+
+}
+
+.thro{
+  height: 250px;
+  width: 350px;
+  padding-left: 12px;
+  padding-right: 12px;
+  
+}
+.imag
+{
+  width: 451px;
+  height: 239px;
+  padding-top: 64px;
+  padding-left: 93px;
+  padding-right: 12px;
+}
+.fra{
+  padding-left: 10px;
+}
+
+/*button*/
+
+.piy{
+  color: white;
+}
+.container1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button
+{
+   
+    text-decoration: none;
+  width: 152px;
+    padding: 1px;
+    padding-top: 12px;
+    font-size: 26px;
+    color: rgb(231, 216, 216);
+    font-weight: 400;
+    border: 3px solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 80px;
+    transition: 1.5s;
+    text-align: center;
+}
+button a{
+  text-decoration: none;
+}
+
+
+.button:hover
+{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+               0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee,;           
+               
+}
+
+
+
+.btn
+{
+   
+   
+  width: 319px;
+  padding: 0px;
+  font-size: 29px;
+  color: rgb(231, 216, 216);
+  font-weight: 400;
+  border: 5px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+
+.btn:hover
+{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+               0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee,;           
+               
+}
+
+
+.main{
+    background-color: black;
+
+}
+.title
+{
+    display: flex;
+    align-items: center;
+}
+.navitem
+{
+  padding: 10px;
+  color: white;
+  font-family: 'Baloo Bhai', cursive;
+  padding-right: 27px;;
+
+}
+
+.card{
+  padding-bottom: 10px;
+}
+.d{
+padding:23px ;
+}
+
+.navitem1
+{
+  padding: 12px;
+  padding-right: 13px;
+  padding-left: 8px;
+  padding-top: 7px;
+  font-size: 0.6em;
+  display: block;
+  cursor: pointer;
+  font-family: 'Baloo Bhai', cursive;
+  color: white;
+}
+
+3
+.navitem1:hover
+{
+    padding: 12px;
+    padding-left: 64px;
+    padding-top: 19px;
+    font-size: 0.8em;
+    display: block;
+    cursor: pointer;
+    color: white;
+}
+
+.blank
+{
+    flex-grow: 1;
+}
+.main-header
+{
+    font-size: 1.5em;
+    border-bottom: black
+    font-family: 'Baloo Bhai', cursive;
+
+}
+.col{
+    background-color: black;
+    
+}
+
+.sty{
+    font-family: 'Baloo Bhai', cursive;
+    padding-bottom: 23px;
+}
+#client-section{ 
+    position: relative;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('../bg.jpg');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+    cursor: pointer;
+}
+.client-item :hover{
+    padding: 34px;
+    cursor: pointer;
+}
+
+#clients img{
+    height: 124px;
+}
+.center
+{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    display: flex;
+    height: 49px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.h-primary
+{
+    padding:12px;
+    font-family: 'Baloo Bhai', cursive;
+
+
+}
+
+#client-section
+{
+    background: url('../contact.jpg') no-repeat center center/cover ;
+}
+
+  .foot{
+    display: flex;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
+   
+  }
+  ul{
+    display: flex;
+  }
+  ul li{
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: #171515;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  ul li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    /* background: #d35400; */
+    border-radius: 50%;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+  }
+  ul li:nth-child(1):before{
+    background: #4267B2;
+  }
+  ul li:nth-child(2):before{
+    background: #1DA1F2;
+  }
+  ul li:nth-child(3):before{
+    background: #E1306C;
+  }
+  ul li:nth-child(4):before{
+    background: #2867B2;
+  }
+  ul li:nth-child(5):before{
+    background: #ff0000;
+  }
+  ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    /* box-shadow: 0 0 15px #d35400; */
+  }
+  ul li:nth-child(1):hover:before{
+    box-shadow: 0 0 15px #4267B2;
+  }
+  ul li:nth-child(2):hover:before{
+    box-shadow: 0 0 15px #1DA1F2;
+  }
+  ul li:nth-child(3):hover:before{
+    box-shadow: 0 0 15px #E1306C;
+  }
+  ul li:nth-child(4):hover:before{
+    box-shadow: 0 0 15px #2867B2;
+  }
+  ul li:nth-child(5):hover:before{
+    box-shadow: 0 0 15px #ff0000;
+  }
+  ul li:nth-child(1):hover{
+    color: #456cba;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+  }
+  ul li:nth-child(2):hover{
+    color: #26a4f2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+  }
+  ul li:nth-child(3):hover{
+    color: #e23670;
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+  }
+  ul li:nth-child(4):hover{
+    color: #2a6cbb;
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+  }
+  ul li:nth-child(5):hover{
+    color: #ff1a1a;
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+  }
+  /* ul li:hover{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  } */
+
+  #services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background:black;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+.sty{
+  color: white;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+.box1
+{
+    width: 87%;
+}
+.yt
+{
+    width: 90%;
+    height:45%;
+}
+.hi{
+   
+        text-align: center;
+        font-size: 3em;
+        color: white;
+        display: flex;
+        height: 49px;
+    
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #262626;
+        padding:12px;
+        font-family: 'Baloo Bhai', cursive;
+    
+    
+    
+}
+h2.h-secondary {
+  color: white;
+}
+
+
+
+.container2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url('bg3.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	padding: 0
+}
+.nav1{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin:10px;
+}
+.nav1 span{
+	margin-left: 20px;
+}
+.about-us{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+.who-we-are{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.who-we-are span{
+	width: 60%;
+	align-items: center;
+text-align: center;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:10px;
+	flex-wrap: wrap;
+}
+.card-img{
+	border-radius: 5px;
+}
+.cards .card{
+	width: 16rem;
+	margin: 20px;
+}
+.card p{
+	font-size: 14px;
+}
+.social-media{
+	width: 90%;
+	display: flex;
+	justify-content: flex-end;
+}
+.social-media i{
+	margin:10px;
+}
+.active{
+	border-bottom: 1px solid #fff;
+}
+.card-img1{
+	width: 100%;
+	height: 12rem;
+	background-image: url('WhatsApp Image 2022-05-28 at 7.08.18 PM.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img2{
+	width: 100%;
+	height: 12rem;
+	background-image: url('WhatsApp Image 2022-05-28 at 7.21.58 PM.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img3{
+	width: 100%;
+	height: 12rem;
+	background-image: url('WhatsApp Image 2022-05-28 at 6.44.23 PM.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img4{
+	width: 100%;
+	height: 12rem;
+	background-image: url('WhatsApp Image 2022-05-28 at 7.32.23 PM.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img5{
+	width: 100%;
+	height: 12rem;
+	background-image: url('WhatsApp Image 2022-05-28 at 7.06.05 PM.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.logo{
+	font-family: 'Dancing Script',cursive;
+	font-size: 24px;
+}
+
+
+
